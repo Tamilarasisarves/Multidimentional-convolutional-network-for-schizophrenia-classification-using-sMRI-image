@@ -4,10 +4,10 @@ This repository explores the use of multidimensional Convolutional Neural Networ
 
 1D-CNN: Focuses on energy features extracted from the CD subband, which emphasizes diagonal high-frequency components, known to be associated with schizophrenia.
 2D-CNN: Uses the CH subband, which allows for feature extraction from horizontal high-frequency coefficients of the sMRI data.
-3D-CNN: Utilizes the CV subband, enabling volumetric feature extraction from vertical high-frequency coefficients.
+3D-CNN: Utilizes the CV subband, enabling volumetric feature extraction from vertical high-frequency coefficients. The proposed method uses ensembling strategy (max voting) from the multidimensional CNN classification outputs to improve the classification performance. 
 ## Data Availability 
 
-The datasets from the following open repositories:
+The datasets are from the following open repositories:
 
 - **UCLA Consortium for Neuropsychiatric Phenomics LA5c Study database**: [https://openfmri.org/dataset/ds000030/](https://openfmri.org/dataset/ds000030/)
 - **OpenfMRI dataset for schizophrenia**: [https://openfmri.org/dataset/ds000115/](https://openfmri.org/dataset/ds000115/)
