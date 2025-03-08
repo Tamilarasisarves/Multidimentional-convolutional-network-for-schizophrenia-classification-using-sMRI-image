@@ -1,8 +1,13 @@
 # Multidimentional-convolutional-network-for-schizophrenia-classification-using-sMRI-image
 This repository contains Python scripts for classifying schizophrenia patients based on their structural MRI scans using a multidimensional convolutional network.
+This repository explores the use of multidimensional Convolutional Neural Network (CNN) architectures, specifically 1D-CNN, 2D-CNN, and 3D-CNN, for classifying schizophrenia based on structural MRI (sMRI) data. The study uses Discrete Wavelet Transform (DWT) subbands to extract energy features, which highlight various frequency elements in the data related to schizophrenia.
+
+1D-CNN: Focuses on energy features extracted from the CD subband, which emphasizes diagonal high-frequency components, known to be associated with schizophrenia.
+2D-CNN: Uses the CH subband, which allows for feature extraction from horizontal high-frequency coefficients of the sMRI data.
+3D-CNN: Utilizes the CV subband, enabling volumetric feature extraction from vertical high-frequency coefficients.
 ## Data Availability Statement
 
-The datasets generated and/or analyzed during the current study are available in the following open repositories:
+The datasets from the following open repositories:
 
 - **UCLA Consortium for Neuropsychiatric Phenomics LA5c Study database**: [https://openfmri.org/dataset/ds000030/](https://openfmri.org/dataset/ds000030/)
 - **OpenfMRI dataset for schizophrenia**: [https://openfmri.org/dataset/ds000115/](https://openfmri.org/dataset/ds000115/)
