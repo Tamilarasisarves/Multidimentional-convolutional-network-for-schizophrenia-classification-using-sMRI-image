@@ -14,7 +14,7 @@ The datasets are from the following open repositories:
 - **COBRE dataset**: [https://fcon_1000.projects.nitrc.org/indi/retro/cobre.html](https://fcon_1000.projects.nitrc.org/indi/retro/cobre.html)
 
 ## How to Run:
-
+The data were preprocessed before further analysis, using standard neuroimaging preprocessing pipelines (e.g., SPM, FSL, FreeSurfer).
 1. **First**, run `2DCNN.py` to prepare the data for the MDCNN model and train the 2D CNN model.
    
 2. **Next**, run `1DCNN.py` to perform feature extraction and train the 1D CNN model.
