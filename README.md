@@ -21,5 +21,5 @@ The datasets from the following open repositories:
 
 3. **Then**, run `ROI_selection_energy_feature_extraction_analysis.py` for ROI selection and feature extraction analysis.
 
-4. **Finally**, use `MVMDM.py` to train the 3D CNN model and test its performance using the trained model.
+4. **Finally**, use `MVMDM.py` to train the 3D CNN model and test its performance and prediction of schizophrenia.
 
