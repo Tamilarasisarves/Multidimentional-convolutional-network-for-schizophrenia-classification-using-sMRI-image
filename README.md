@@ -23,7 +23,7 @@ The data were preprocessed before further analysis, using standard neuroimaging 
 
 4. **Finally**, use `MVMDM.py` to train the 3D CNN model and test its performance and prediction of schizophrenia.
 
-Authors Information:
+## Authors Information:
 
 Tamilarasi Sarveswaran* and Vijayarajan Rajangam**
 
